@@ -31,7 +31,7 @@ impl Player {
 
     fn gravity_and_move(&mut self) {
         if self.velocity < 2.0 {
-            self.velocity += 0.2;
+            self.velocity += 0.3;
         }
         self.y += self.velocity as i32;
         self.x += 1;
